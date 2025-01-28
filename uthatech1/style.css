@@ -22,11 +22,11 @@ h2 {
 }
 dt {
     color: #003058;
-    font-style: bold;
+    font-weight: bold;
 }
 .ut {
     color: #BA1C21;
-    font-style: bold;
+    font-weight: bold;
 }
 footer {
     font-size: .70rem;
