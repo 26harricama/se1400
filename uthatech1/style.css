@@ -1,12 +1,12 @@
 body {
     background-color: #FFFFFF;
     color: #666666;
-    font: 1em Arial;
+    font-family: Arial;
 }
 header {
     background-color: #003058;
-    color: #666666;
-    font: 1em Georgia;
+    color: #FFFFFF;
+    font-family: Georgia;
 }
 header h1 {
     line-height: 140%;
@@ -18,7 +18,7 @@ nav {
 }
 h2 {
     color: #424242;
-    font: 1em Georgia;
+    font-family: Georgia;
 }
 dt {
     color: #003058;
