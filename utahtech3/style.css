@@ -25,6 +25,14 @@ header h1 {
     background-origin: content-box;
     margin:0;
 }
+header a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+main img {
+    float: right;
+    padding-left: 2rem;
+}
 nav {
     background-color: #f3f3f3;
     font-weight: bold;
