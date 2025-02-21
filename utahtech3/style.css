@@ -13,7 +13,7 @@ header {
     font-family: Georgia;
     grid-column: 2 / -2;
     grid-row: 1 / 2;
-    background-color: white;
+    
 }
 header h1 {
     line-height: 140%;
