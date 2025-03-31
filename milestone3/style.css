@@ -1,6 +1,6 @@
 main {
     display: grid;
-    grid-template-columns: repeat(2, 175px);
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
     grid-template-rows: repeat(3, 175px);
 }
 .child {
