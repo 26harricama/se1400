@@ -4,8 +4,18 @@
     grid-template-rows: 0.5fr 0.3fr 1fr 0.8fr 1fr;
     grid-column-gap: 6px;
     grid-row-gap: 6px;
+    padding: 10px;
+    background-color: #f0f0f0;
 }
-
+.child {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
 .child:nth-child(1) { background: rgba(255, 0, 0, 0.3); }
 .child:nth-child(2) { background: rgba(0, 255, 0, 0.3); }
 .child:nth-child(3) { background: rgba(0, 0, 255, 0.3); }
