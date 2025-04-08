@@ -1,7 +1,7 @@
 .parent {
     display: grid;
     grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
-    grid-auto-rows: minmax(50px, auto); /* 4+ rows depending on content */
+    grid-auto-rows: minmax(50px, auto);
     grid-column-gap: 6px;
     grid-row-gap: 6px;
     padding: 10px;
@@ -16,6 +16,7 @@
     font-weight: bold;
     border: 1px solid rgba(0, 0, 0, 0.2);
     min-height: 50px;
+    aspect-ratio: 1 / 1;
 }
 
 .child:nth-child(1) { grid-column: 2 / span 3; background: rgba(255, 0, 0, 0.3); }
