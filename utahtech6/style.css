@@ -126,7 +126,7 @@ textarea:focus {
     padding: 10px;
     color: #666666;
     background-color: #fafafa;
-    border: none;
+    border: 0;
 }
 #mySubmit {
     width: 10rem;
