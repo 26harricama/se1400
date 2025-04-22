@@ -7,6 +7,24 @@ body {
     box-sizing: border-box;
     margin: 0px;
 }
+table {
+    margin: 0 auto;
+    width: 100%;
+    border: 1px solid #424242;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid #424242;
+    text-align: center;
+}
+.text {
+    text-align: left;
+}
+tr:nth-of-type(even) {
+    background-color: #F3F3F3;
+}
 header {
     background-color: #003058;
     color: #FFFFFF;
