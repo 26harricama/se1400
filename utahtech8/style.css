@@ -41,6 +41,10 @@ header h1 {
     background-origin: content-box;
     margin:0;
 }
+video {
+    float: right;
+    margin-left: 2em;
+}
 header a {
     text-decoration: none;
     color: #FFFFFF;
