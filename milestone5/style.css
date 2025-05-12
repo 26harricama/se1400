@@ -68,3 +68,82 @@ div {
 .child:nth-child(14) { grid-column: 2 / 8; grid-row: 7; background: #d8c29d; aspect-ratio: 2.5/1; }
 
 .child:nth-child(15) { grid-column: 2 / 8; grid-row: 8; background: #d8c29d; aspect-ratio: 7/1;}
+
+@media (max-width: 992px) {
+  .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .child {
+    aspect-ratio: auto;
+    width: 100%;
+    font-size: 1em;
+  }
+
+  /* Make nav vertical */
+  .child:nth-child(2),
+  .child:nth-child(3),
+  .child:nth-child(4),
+  .child:nth-child(5),
+  .child:nth-child(6) {
+    order: 2;
+    background: #c3b091;
+  }
+
+  /* Move die to top */
+  .child:nth-child(1) {
+    order: 1;
+    align-self: center;
+    width: 80px;
+    height: 80px;
+  }
+
+  /* Hero Title */
+  .child:nth-child(7) {
+    order: 3;
+    font-size: 1.5em;
+  }
+
+  /* Image and Text Section 1 */
+  .child:nth-child(8) {
+    order: 4;
+  }
+
+  .child:nth-child(9) {
+    order: 5;
+  }
+
+  /* Section Title */
+  .child:nth-child(10) {
+    order: 6;
+    font-size: 1.3em;
+  }
+
+  /* Image and Text Section 2 */
+  .child:nth-child(11) {
+    order: 7;
+  }
+
+  .child:nth-child(12) {
+    order: 8;
+  }
+
+  /* Section Title */
+  .child:nth-child(13) {
+    order: 9;
+    font-size: 1.3em;
+  }
+
+  /* Paragraph Block */
+  .child:nth-child(14) {
+    order: 10;
+  }
+
+  /* Footer */
+  .child:nth-child(15) {
+    order: 11;
+    text-align: center;
+  }
+}
