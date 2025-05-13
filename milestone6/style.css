@@ -52,7 +52,7 @@ a {
 
 .child:nth-child(-n+6) {
     aspect-ratio: 1 / 1;
-    border: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .child:nth-child(1)  { grid-column: 2; grid-row: 1; background: 	#c3b091; font-size: 1em; }
